@@ -28,8 +28,6 @@
   ::-webkit-scrollbar { width: 5px; }
   ::-webkit-scrollbar-track { background: var(--gray-100); }
   ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 99px; }
- 
-  /* NAV */
   .topnav {
     position: sticky; top: 0; z-index: 100;
     background: rgba(250,248,244,0.88); backdrop-filter: blur(16px);
@@ -52,8 +50,6 @@
     text-decoration: none; transition: background 0.2s; cursor: pointer;
   }
   .topnav-cta:hover { background: var(--navy) !important; }
- 
-  /* HERO */
   .hero {
     max-width: 1100px; margin: 0 auto;
     padding: 64px 48px 40px;
@@ -124,8 +120,6 @@
     border: 1px dashed var(--gold); opacity: 0.4; animation: spin 20s linear infinite;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
- 
-  /* STATS */
   .stats-bar { max-width: 1100px; margin: 0 auto; padding: 0 48px 48px; animation: fadeUp 0.7s 0.5s ease both; }
   .stats-inner {
     background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius);
@@ -136,8 +130,6 @@
   .stat-number { font-family: 'Cormorant Garamond', serif; font-size: 40px; font-weight: 700; color: var(--navy); line-height: 1; margin-bottom: 4px; }
   .stat-number span { color: var(--gold); font-size: 28px; }
   .stat-label { font-size: 12px; font-weight: 500; color: var(--gray-400); text-transform: uppercase; letter-spacing: 0.1em; }
- 
-  /* TABS */
   .tabs-wrapper { max-width: 1100px; margin: 0 auto; padding: 0 48px 80px; }
   .tabs-nav {
     display: flex; gap: 4px; background: var(--white); border: 1px solid var(--gray-200);
@@ -154,14 +146,10 @@
   .tab-panel.active { display: block; }
   @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:none} }
   @keyframes fadeUp { from{opacity:0;transform:translateY(24px)} to{opacity:1;transform:none} }
- 
-  /* SECTION HEADER */
   .section-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 28px; }
   .section-title { font-family: 'Cormorant Garamond', serif; font-size: 36px; font-weight: 700; color: var(--navy); line-height: 1.1; }
   .section-title span { color: var(--gold); }
   .section-count { font-size: 13px; color: var(--gray-400); font-weight: 500; }
- 
-  /* EXPERIENCE */
   .exp-list { display: flex; flex-direction: column; gap: 20px; }
   .exp-card {
     background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius);
@@ -194,8 +182,6 @@
     font-size: 12px; color: var(--gray-400); font-weight: 500; white-space: nowrap;
     background: var(--gray-100); border-radius: 99px; padding: 4px 12px; height: fit-content;
   }
- 
-  /* PROJECTS */
   .proj-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 20px; }
   .proj-card {
     background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius);
@@ -220,8 +206,6 @@
   .proj-role { font-size: 12px; font-weight: 500; color: var(--accent); }
   .proj-year { font-size: 12px; color: var(--gray-400); }
   .proj-tags { display: flex; flex-wrap: wrap; gap: 6px; }
- 
-  /* EDUCATION */
   .edu-list { display: flex; flex-direction: column; gap: 20px; }
   .edu-card {
     background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius);
@@ -246,8 +230,6 @@
     font-size: 12px; color: var(--gray-400); font-weight: 500;
     background: var(--gray-100); border-radius: 99px; padding: 4px 12px; height: fit-content; white-space: nowrap;
   }
- 
-  /* ACHIEVEMENTS */
   .ach-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; margin-bottom: 40px; }
   .ach-card {
     background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius);
@@ -265,8 +247,6 @@
   .ach-org { font-size: 13px; color: var(--gold); font-weight: 500; margin-bottom: 8px; }
   .ach-desc { font-size: 13px; color: var(--gray-600); line-height: 1.6; margin-bottom: 12px; }
   .ach-year { font-size: 12px; color: var(--gray-400); background: var(--gray-100); padding: 3px 10px; border-radius: 99px; display: inline-block; }
- 
-  /* POSITIONS — sub-section inside achievements */
   .pos-section-title { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 700; color: var(--navy); margin-bottom: 20px; }
   .pos-section-title span { color: var(--gold); }
   .pos-list { display: flex; flex-direction: column; gap: 14px; }
@@ -281,8 +261,6 @@
   .pos-role { font-size: 15px; font-weight: 600; color: var(--navy); }
   .pos-org { font-size: 13px; color: var(--gray-600); margin-top: 2px; }
   .pos-date { font-size: 12px; color: var(--gray-400); font-weight: 500; white-space: nowrap; background: var(--gray-100); padding: 4px 12px; border-radius: 99px; }
- 
-  /* SKILLS SECTION */
   .skills-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 16px; margin-top: 40px; }
   .skills-card { background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 22px 26px; box-shadow: var(--shadow-sm); }
   .skills-card-title { font-size: 13px; font-weight: 600; color: var(--navy); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
@@ -292,8 +270,6 @@
     padding: 5px 14px; font-size: 12px; font-weight: 500; color: var(--accent); transition: all 0.2s;
   }
   .skills-pill:hover { background: var(--navy); color: var(--white); border-color: var(--navy); }
- 
-  /* FOOTER */
   .footer {
     border-top: 1px solid var(--gray-200); padding: 28px 48px;
     max-width: 1100px; margin: 0 auto;
@@ -303,8 +279,6 @@
   .footer-links { display: flex; gap: 20px; }
   .footer-links a { font-size: 13px; color: var(--gray-600); text-decoration: none; font-weight: 500; }
   .footer-links a:hover { color: var(--navy); }
- 
-  /* RESPONSIVE */
   @media(max-width: 768px) {
     .topnav { padding: 0 20px; }
     .topnav-links a:not(.topnav-cta) { display: none; }
@@ -325,8 +299,6 @@
 </style>
 </head>
 <body>
- 
-<!-- NAV -->
 <nav class="topnav">
   <div class="topnav-logo">Aditi<span>Luniya</span></div>
   <div class="topnav-links">
@@ -335,10 +307,8 @@
     <a onclick="switchTab('education')"  id="nav-education">Education</a>
     <a onclick="switchTab('achievements')" id="nav-achievements">Achievements</a>
   </div>
-  <a class="topnav-cta" onclick="window.print()">⬇ Download</a>
+  
 </nav>
- 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-text">
     <div class="hero-badge"><div class="hero-badge-dot"></div> Open to Internships & Opportunities</div>
@@ -367,30 +337,14 @@
     <div class="hero-avatar">AL</div>
   </div>
 </section>
- 
-<!-- STATS -->
 <div class="stats-bar">
   <div class="stats-inner">
-    <div class="stat-item">
-      <div class="stat-number">3<span>+</span></div>
-      <div class="stat-label">Projects Done</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">6<span>+</span></div>
-      <div class="stat-label">Positions Held</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">4<span>+</span></div>
-      <div class="stat-label">Achievements</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">12<span>K</span></div>
-      <div class="stat-label">JEE Advanced AIR</div>
-    </div>
+    <div class="stat-item"><div class="stat-number">3<span>+</span></div><div class="stat-label">Projects Done</div></div>
+    <div class="stat-item"><div class="stat-number">6<span>+</span></div><div class="stat-label">Positions Held</div></div>
+    <div class="stat-item"><div class="stat-number">4<span>+</span></div><div class="stat-label">Achievements</div></div>
+    <div class="stat-item"><div class="stat-number">12<span>K</span></div><div class="stat-label">JEE Advanced AIR</div></div>
   </div>
 </div>
- 
-<!-- TABS -->
 <div class="tabs-wrapper">
   <div class="tabs-nav">
     <button class="tab-btn active" onclick="switchTab('experience')" id="tab-experience">💼 Experience</button>
@@ -398,8 +352,6 @@
     <button class="tab-btn" onclick="switchTab('education')"   id="tab-education">🎓 Education</button>
     <button class="tab-btn" onclick="switchTab('achievements')" id="tab-achievements">🏆 Achievements</button>
   </div>
- 
-  <!-- ── EXPERIENCE ── -->
   <div class="tab-panel active" id="panel-experience">
     <div class="section-header">
       <h2 class="section-title">Work <span>Experience</span></h2>
@@ -428,8 +380,6 @@
         <div class="exp-duration">Apr 2025 – Jul 2025</div>
       </div>
     </div>
- 
-    <!-- SKILLS inside Experience tab -->
     <div style="margin-top:48px;">
       <div class="section-header">
         <h2 class="section-title">Technical <span>Skills</span></h2>
@@ -481,15 +431,12 @@
       </div>
     </div>
   </div>
- 
-  <!-- ── PROJECTS ── -->
   <div class="tab-panel" id="panel-projects">
     <div class="section-header">
       <h2 class="section-title">Key <span>Projects</span></h2>
       <span class="section-count">3 Projects</span>
     </div>
     <div class="proj-grid">
- 
       <div class="proj-card">
         <div class="proj-header">
           <div class="proj-icon">🏠</div>
@@ -514,7 +461,6 @@
           <span class="proj-year">Jul 2025</span>
         </div>
       </div>
- 
       <div class="proj-card">
         <div class="proj-header">
           <div class="proj-icon">🤖</div>
@@ -539,7 +485,6 @@
           <span class="proj-year">Feb – Apr 2024</span>
         </div>
       </div>
- 
       <div class="proj-card" style="grid-column: 1 / -1;">
         <div class="proj-header">
           <div class="proj-icon">🛸</div>
@@ -564,24 +509,20 @@
           <span class="proj-year">Mar 2025 – Ongoing</span>
         </div>
       </div>
- 
     </div>
   </div>
- 
-  <!-- ── EDUCATION ── -->
   <div class="tab-panel" id="panel-education">
     <div class="section-header">
       <h2 class="section-title">Education & <span>Training</span></h2>
       <span class="section-count">4 Qualifications</span>
     </div>
     <div class="edu-list">
- 
       <div class="edu-card">
         <div class="edu-logo">🏛️</div>
         <div>
           <div class="edu-degree">B.Tech — Electrical Engineering</div>
           <div class="edu-school">Indian Institute of Technology, Indore</div>
-          <div class="edu-desc">Studying core electrical engineering including Network Theory, Digital Systems, Signals & Systems, Power Electronics, Control Systems, VLSI, and Computer Architecture. Actively involved in research, student councils, and technical projects.</div>
+          <div class="edu-desc">Studying core electrical engineering including Network Theory, Digital Systems, Signals & Systems, Power Electronics, Control Systems, VLSI, and Computer Architecture.</div>
           <div class="edu-highlights">
             <span class="edu-highlight">CGPA: 6.0</span>
             <span class="edu-highlight">Roll No: 230002003</span>
@@ -590,13 +531,12 @@
         </div>
         <div class="edu-year">2023 – 2027</div>
       </div>
- 
       <div class="edu-card">
         <div class="edu-logo">🎓</div>
         <div>
           <div class="edu-degree">Senior Secondary (Class XII)</div>
           <div class="edu-school">MP Board</div>
-          <div class="edu-desc">Completed senior secondary education with a strong foundation in Science and Mathematics, securing a solid score that enabled selection into IIT Indore via JEE Advanced.</div>
+          <div class="edu-desc">Completed senior secondary education with a strong foundation in Science and Mathematics.</div>
           <div class="edu-highlights">
             <span class="edu-highlight">75%</span>
             <span class="edu-highlight">2023</span>
@@ -604,13 +544,12 @@
         </div>
         <div class="edu-year">2023</div>
       </div>
- 
       <div class="edu-card">
         <div class="edu-logo">📚</div>
         <div>
           <div class="edu-degree">Secondary (Class X)</div>
           <div class="edu-school">CBSE Board</div>
-          <div class="edu-desc">Completed secondary education under CBSE with strong academic performance in core subjects including Mathematics and Science.</div>
+          <div class="edu-desc">Completed secondary education under CBSE with strong academic performance in core subjects.</div>
           <div class="edu-highlights">
             <span class="edu-highlight">78.6%</span>
             <span class="edu-highlight">2021</span>
@@ -618,13 +557,12 @@
         </div>
         <div class="edu-year">2021</div>
       </div>
- 
       <div class="edu-card">
         <div class="edu-logo">🐍</div>
         <div>
           <div class="edu-degree">Python Bootcamp Certification</div>
           <div class="edu-school">SKILLECTED</div>
-          <div class="edu-desc">Completed a structured Python programming bootcamp covering core programming concepts, data structures, file handling, and practical application development.</div>
+          <div class="edu-desc">Completed a structured Python programming bootcamp covering core concepts, data structures, and practical application development.</div>
           <div class="edu-highlights">
             <span class="edu-highlight">Certified</span>
             <span class="edu-highlight">2024</span>
@@ -632,18 +570,14 @@
         </div>
         <div class="edu-year">2024</div>
       </div>
- 
     </div>
   </div>
- 
-  <!-- ── ACHIEVEMENTS ── -->
   <div class="tab-panel" id="panel-achievements">
     <div class="section-header">
       <h2 class="section-title">Awards & <span>Achievements</span></h2>
       <span class="section-count">4 Awards</span>
     </div>
     <div class="ach-grid">
- 
       <div class="ach-card">
         <div class="ach-icon">🎯</div>
         <div class="ach-title">JEE Advanced 2023</div>
@@ -651,23 +585,20 @@
         <div class="ach-desc">Secured All India Rank 12,313 among 2.5 Lakh shortlisted candidates — a top percentile achievement that led to admission at IIT Indore.</div>
         <div class="ach-year">2023</div>
       </div>
- 
       <div class="ach-card">
         <div class="ach-icon">🐍</div>
         <div class="ach-title">Python Bootcamp Certification</div>
         <div class="ach-org">SKILLECTED</div>
-        <div class="ach-desc">Successfully completed a comprehensive Python programming bootcamp certification, demonstrating applied programming proficiency.</div>
+        <div class="ach-desc">Successfully completed a comprehensive Python programming bootcamp certification.</div>
         <div class="ach-year">2024</div>
       </div>
- 
       <div class="ach-card">
         <div class="ach-icon">🏫</div>
         <div class="ach-title">Winter Consulting Program</div>
         <div class="ach-org">IIT Guwahati</div>
-        <div class="ach-desc">Selected for the prestigious Winter Consulting Program at IIT Guwahati — a competitive program focused on business strategy and consulting skills.</div>
+        <div class="ach-desc">Selected for the prestigious Winter Consulting Program at IIT Guwahati focused on business strategy and consulting skills.</div>
         <div class="ach-year">2025</div>
       </div>
- 
       <div class="ach-card" style="grid-column: 2 / 3; margin: 0 auto; width: 100%;">
         <div class="ach-icon">🌐</div>
         <div class="ach-title">IGC MUN 2025</div>
@@ -675,85 +606,36 @@
         <div class="ach-desc">Successfully onboarded delegates and secured the official collaboration logo of UNICEF for the International Global Conference MUN 2025.</div>
         <div class="ach-year">2025</div>
       </div>
- 
     </div>
- 
-    <!-- Positions of Responsibility -->
     <div class="pos-section-title">Positions of <span>Responsibility</span></div>
     <div class="pos-list">
- 
       <div class="pos-card">
-        <div class="pos-left">
-          <div class="pos-dot"></div>
-          <div>
-            <div class="pos-role">Treasurer</div>
-            <div class="pos-org">Presidential Council, IIT Indore</div>
-          </div>
-        </div>
+        <div class="pos-left"><div class="pos-dot"></div><div><div class="pos-role">Treasurer</div><div class="pos-org">Presidential Council, IIT Indore</div></div></div>
         <div class="pos-date">Jul 2025 – Present</div>
       </div>
- 
       <div class="pos-card">
-        <div class="pos-left">
-          <div class="pos-dot"></div>
-          <div>
-            <div class="pos-role">Outreach Head</div>
-            <div class="pos-org">Academic Council, IIT Indore</div>
-          </div>
-        </div>
+        <div class="pos-left"><div class="pos-dot"></div><div><div class="pos-role">Outreach Head</div><div class="pos-org">Academic Council, IIT Indore</div></div></div>
         <div class="pos-date">Jul 2025 – Present</div>
       </div>
- 
       <div class="pos-card">
-        <div class="pos-left">
-          <div class="pos-dot"></div>
-          <div>
-            <div class="pos-role">Brand Ambassador</div>
-            <div class="pos-org">MathWorks</div>
-          </div>
-        </div>
+        <div class="pos-left"><div class="pos-dot"></div><div><div class="pos-role">Brand Ambassador</div><div class="pos-org">MathWorks</div></div></div>
         <div class="pos-date">Jul 2025 – Dec 2025</div>
       </div>
- 
       <div class="pos-card">
-        <div class="pos-left">
-          <div class="pos-dot"></div>
-          <div>
-            <div class="pos-role">Outreach Head</div>
-            <div class="pos-org">Research and Industrial Conclave, IIT Indore</div>
-          </div>
-        </div>
+        <div class="pos-left"><div class="pos-dot"></div><div><div class="pos-role">Outreach Head</div><div class="pos-org">Research and Industrial Conclave, IIT Indore</div></div></div>
         <div class="pos-date">Feb 2025</div>
       </div>
- 
       <div class="pos-card">
-        <div class="pos-left">
-          <div class="pos-dot"></div>
-          <div>
-            <div class="pos-role">Event Head</div>
-            <div class="pos-org">Lakshya 3.0, IIT Indore</div>
-          </div>
-        </div>
+        <div class="pos-left"><div class="pos-dot"></div><div><div class="pos-role">Event Head</div><div class="pos-org">Lakshya 3.0, IIT Indore</div></div></div>
         <div class="pos-date">Feb 2025</div>
       </div>
- 
       <div class="pos-card">
-        <div class="pos-left">
-          <div class="pos-dot"></div>
-          <div>
-            <div class="pos-role">Chief of PR</div>
-            <div class="pos-org">International Global Conference 2nd Edition</div>
-          </div>
-        </div>
+        <div class="pos-left"><div class="pos-dot"></div><div><div class="pos-role">Chief of PR</div><div class="pos-org">International Global Conference 2nd Edition</div></div></div>
         <div class="pos-date">Feb 2025</div>
       </div>
- 
     </div>
   </div>
- 
 </div>
- 
-<!-- FOOTER -->
 <footer class="footer">
   <span class="footer-note">© 2025 Aditi Luniya · B.Tech EE · IIT Indore</span>
   <div class="footer-links">
@@ -762,7 +644,6 @@
     <a href="https://github.com/Aditi1109luniya/" target="_blank">GitHub</a>
   </div>
 </footer>
- 
 <script>
   function switchTab(tab) {
     document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
